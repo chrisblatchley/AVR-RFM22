@@ -1,3 +1,6 @@
+From the Original Readme:
+
+"""
 This code was used to  test communication between two RFM22 modules. WinAVR (AVRDude) was used to compile and write the code.  Makefiles are set up for serial programming - check out this tutorial for more info: http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=142.
 
 In my testing, I used two 3.3V Arduino Pro's (ATmega328), one programmed with the Receive code and one with the Transmit. Data is transmitted in 17-byte packets (16 data, 1 checksum). All of the configuration fuctions were derived from the examples posted on HopeRF's product page:
@@ -12,3 +15,6 @@ All code is released under the Creative Commons Share-alike v3.0 license. Feel f
 
 Cheers!
 -Jim
+"""
+
+This project is taking this demo and updating/modifying it to work for our needs.
