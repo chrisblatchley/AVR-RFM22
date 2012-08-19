@@ -1,0 +1,6 @@
+make clean
+make all
+make program
+if [ $? -eq 0 ]
+    then sudo arduino
+fi
